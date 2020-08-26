@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cesi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cesi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cesi-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cesi:war exploded" />
+    </root>
+  </artifact>
+</component>
